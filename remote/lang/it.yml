@@ -1,0 +1,39 @@
+base:
+  command:
+    help:
+      map: Abilita il monitoraggio grafico.
+      cpu-score: Calcola il punteggio della cpu del tuo server.
+      guess-memory: Suppone le capacità del server con X Ram.
+      monitoring: Abilita il monitoraggio testuale.
+      reload: Ricarica i files di configurazione di React.
+      status: Invia un libro degli ultimi problemi rilevati.
+      lang: Elenca e cambia le lingue supportate.
+      version: Confronta la tua versione con eventuali nuove versioni.
+      guess: Suppone le capacità del server.
+      query: Chiede informazioni sui plugin.
+      servers: Elenca tutti i servers nel network con i dati.
+      help: Invia un libro informativo di aiuto.
+  message:
+    update-found: Trovato aggiornamento!
+    action:
+      fully-automatic: '%s è un''azione completamente automatica.'
+      manual:
+        finished: 'Azione Manuale: %s finita %s'
+        started: 'Azione Manuale: %s iniziata.'
+      stabilizing: '%s: Stabilizzazione...'
+      fixed: '%s: Riparata!'
+    sided:
+      ingame: Devi essere in gioco per usarlo.
+      console: Devi usarlo dalla console.
+    insufficient-permission: Permesso non sufficiente.
+    monitoring:
+      enabled: Monitoraggio Abilitato
+      disabled: Monitoraggio Disabilitato
+    internal:
+      reloaded: ' v%s Ricaricato'
+    mapping:
+      disabled: Mappaggio Disabilitato
+      enabled: Mappaggio Abilitato
+language:
+  name: Italiano
+  code: it
